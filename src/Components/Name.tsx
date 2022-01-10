@@ -1,5 +1,3 @@
-import { ReactComponent as YellowLine } from "../assets/YellowLine.svg";
-
 function Name() {
     return (
         <div className="font-orbitron h-1/4 w-screen lg:h-screen lg:w-1/2 flex flex-col items-center justify-center text-white">
