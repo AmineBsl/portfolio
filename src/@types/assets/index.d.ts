@@ -11,3 +11,5 @@ declare module "*.jpg" {
  }
 
 declare module 'react-scroll';
+
+declare module 'scrollreveal';

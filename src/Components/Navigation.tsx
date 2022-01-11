@@ -3,6 +3,7 @@ import { ReactComponent as Building1 } from "../assets/Building1.svg"
 import { ReactComponent as Building2 } from "../assets/Building2.svg"
 import { ReactComponent as Building3 } from "../assets/Building3.svg"
 import { ReactComponent as Building4 } from "../assets/Building4.svg"
+import { Link } from "react-scroll"
 
 import { useState } from "react"
 
@@ -17,10 +18,10 @@ function Navigation() {
         <div className="flex items-center justify-center h-3/4 w-screen lg:h-screen lg:w-1/2">
             <div className="w-10/12 relative">
                 <BackgroundRoad width="100%" height="100%" />
-                <div onMouseLeave={() => setBuilding1Hovered(false)} onMouseEnter={() => setBuilding1Hovered(true)} className="group">
+                <Link to='about' smooth={true}><div onMouseLeave={() => setBuilding1Hovered(false)} onMouseEnter={() => setBuilding1Hovered(true)} className="group">
                     <Building1 height="70.72%" width="13.01%" preserveAspectRatio="none" className="hover:cursor-pointer absolute left-[16.31%] bottom-[15.27%]" />
                     <button className={`${building1Hovered ? 'button-glow' :''} group-hover:shadow-purple neon-button left-[16.56%] top-[14.9%] w-[12.5%] h-[7%] text-neon-purple border-neon-purple`}>A propos</button>
-                </div>
+                </div></Link>
                 <div onMouseLeave={() => setBuilding2Hovered(false)} onMouseEnter={() => setBuilding2Hovered(true)} className="group">
                     <Building2 height="53.27%" width="21.91%" preserveAspectRatio="none" className="hover:cursor-pointer absolute left-[29.3%] bottom-[15.27%]" />
                     <button className={`${building2Hovered ? 'button-glow' :''} group-hover:shadow-orange neon-button left-[29.65%] top-[31.9%] w-[21.20%] text-neon-orange border-neon-orange`}>Formation / Experiences</button>
