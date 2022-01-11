@@ -11,7 +11,7 @@ function FormationPage() {
                 {formation.map(f =>
                     <section className="flex flex-col items-center  text-center border-4 bg-neon-yellow/10 border-neon-yellow relative lg:w-1/4 mb-8 lg:mb-0">
                         <BorderEdgeCut />
-                        <img src={moi} className="h-24 mt-8"></img>
+                        <img src={moi} alt='Logo' className="h-24 mt-8"></img>
                         <p className="mt-8 mx-2">{f}</p>
                     </section>
 
@@ -22,7 +22,7 @@ function FormationPage() {
                 {experience.map(e =>
                     <section className="flex flex-col items-center text-center border-4 bg-neon-yellow/10 border-neon-yellow relative lg:w-1/4 mb-8 lg:mb-0">
                         <BorderEdgeCut />
-                        <img src={moi} className="h-24 mt-8"></img>
+                        <img src={moi} alt='logo' className="h-24 mt-8"></img>
                         <p className="mt-8 mx-2">{e}</p>
                     </section>
 
