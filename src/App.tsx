@@ -1,10 +1,14 @@
 import React from 'react';
 import './index.css';
 import TopPage from './Components/TopPage';
+import AboutPage from './Components/AboutPage';
 
 function App() {
   return (
-    <TopPage />
+    <div>
+      <TopPage />
+      <AboutPage />
+    </div>
   );
 }
 

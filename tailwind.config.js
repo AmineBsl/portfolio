@@ -16,7 +16,8 @@ module.exports = {
       },
     },
     fontFamily:{
-      orbitron: ['Orbitron', 'sans-serif']
+      orbitron: ['Orbitron', 'sans-serif'],
+      chakra: ['Chakra Petch', 'sans-serif']
     }
   },
   plugins: [],

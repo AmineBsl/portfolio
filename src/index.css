@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Orbitron:wght@400;600&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -7,9 +7,9 @@
 @layer components {
 
     .neon-button {
-        @apply font-orbitron xl:font-semibold border-2 rounded-md p-1 absolute hidden xl:inline text-sm xl:text-base
+        @apply font-chakra border-2 rounded-md p-1 absolute hidden xl:inline text-sm xl:text-base
     }
     .button-glow {
         text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.2), 0 0 0.45em currentColor;
     }
-  }
+}
