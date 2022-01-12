@@ -1,5 +1,3 @@
-import { ArrowDownIcon } from '@heroicons/react/solid'
-import { Link} from "react-scroll";
 
 function Name() {
     return (
@@ -10,12 +8,6 @@ function Name() {
                 <hr className="border-4 border-[#FDF800] h-2" />
                 <p className="mt-2 text-2xl sm:text-5xl lg:text-4xl xl:text-4xl">web developper</p>
             </div>
-            <Link to='about' smooth={true} className="flex items-center mb-2 absolute bottom-0 hover:cursor-pointer">
-
-                <ArrowDownIcon className='animate-bounce w-10' />
-                Scroll
-
-            </Link>
         </div>
     )
 }

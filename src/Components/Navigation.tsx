@@ -30,14 +30,14 @@ function Navigation() {
                     <Building2 height="54.27%" width="21.91%" preserveAspectRatio="none" className="hover:cursor-pointer absolute left-[29.3%] bottom-[12.8%]" />
                     <button className={`${building2Hovered ? 'button-glow' : ''} group-hover:shadow-orange neon-button left-[29.65%] top-[31.9%] w-[21.20%] text-neon-orange border-neon-orange`}>Formation / Experiences</button>
                 </div></Link>
-                <div onMouseLeave={() => setBuilding3Hovered(false)} onMouseEnter={() => setBuilding3Hovered(true)} className="group">
+                <Link to='projects' smooth={true}><div onMouseLeave={() => setBuilding3Hovered(false)} onMouseEnter={() => setBuilding3Hovered(true)} className="group">
                     <Building3 height="47.45%" width="16.16%" preserveAspectRatio="none" className="hover:cursor-pointer absolute left-[51.15%] bottom-[12.8%]" />
                     <button className={`${building3Hovered ? 'button-glow' : ''} group-hover:shadow-blue neon-button left-[51.60%] top-[37.9%] h-[10%] w-[15.2%] text-neon-blue border-neon-blue`}>Projets</button>
-                </div>
-                <div onMouseLeave={() => setBuilding4Hovered(false)} onMouseEnter={() => setBuilding4Hovered(true)} className="group">
+                </div></Link>
+                <Link to='contact' smooth={true}><div onMouseLeave={() => setBuilding4Hovered(false)} onMouseEnter={() => setBuilding4Hovered(true)} className="group">
                     <Building4 height="62%" width="16.16%" preserveAspectRatio="none" className="hover:cursor-pointer absolute left-[67.15%] bottom-[12.8%]" />
                     <button className={`${building4Hovered ? 'button-glow' : ''} group-hover:shadow-yellow neon-button left-[67.60%] top-[23.4%] h-[8%] w-[15.2%] text-neon-yellow border-neon-yellow`}>Contact</button>
-                </div>
+                </div></Link>
             </section>
 
         </div>
