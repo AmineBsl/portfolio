@@ -6,7 +6,7 @@ function Name() {
                 <p className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl">Amine</p>
                 <p className="mb-2 text-4xl sm:text-5xl lg:text-6xl xl:text-7xl">Boussoualim</p>
                 <hr className="border-4 border-[#FDF800] h-2" />
-                <p className="mt-2 text-2xl sm:text-5xl lg:text-4xl xl:text-4xl">web developper</p>
+                <p className="mt-2 text-2xl sm:text-5xl lg:text-4xl xl:text-4xl">web developer</p>
             </div>
         </div>
     )

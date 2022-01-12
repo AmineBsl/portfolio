@@ -1,19 +1,22 @@
 import BorderEdgeCut from "./BorderEdgeCut"
-import moi from "../assets/moi.jpg"
+
+
+import data from '../assets/data.json'
+
 function FormationPage() {
 
-    const formation = ['Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mollis fringilla pretium. Fusce interdum nec diam nec aliquam. Maecenas eget varius diam, at posuere justo. Vestibulum semper congue leo, ut scelerisque neque tempor sit amet.', 'Formation 2', 'Formation 3']
-    const experience = ['Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mollis fringilla pretium. Fusce interdum nec diam nec aliquam. Maecenas eget varius diam, at posuere justo. Vestibulum semper congue leo, ut scelerisque neque tempor sit amet.', 'Experience 2']
     return (
         <div id="formation" className="font-chakra text-white font-medium  bg-zinc-900 lg:h-screen">
             <div className="flex flex-col items-center justify-center lg:h-1/2">
                 <p className="text-neon-blue text-5xl mb-6">Formations</p>
                 <div className="overflow-hidden flex flex-col lg:flex-row lg:justify-evenly items-center w-full">
-                    {formation.map(e =>
+                    {data.formations.map((f, i) =>
                         <div className="flex flex-col items-center text-center border-4 bg-neon-yellow/10 border-neon-yellow relative lg:w-1/4 h-72 w-4/5 my-8 lg:my-0">
                             <BorderEdgeCut />
-                            <img src={moi} alt='logo' className="h-24 mt-8"></img>
-                            <p className="mt-8 mx-2">a</p>
+                            <p className="mt-8 mx-2 text-neon-yellow text-2xl">{f.titre}</p>
+                            <p className="text-sm xl:text-xl">{f.lieu}</p>
+                            <p className="text-xl">{f.years}</p>
+                            <p className="mt-6 mx-2 text-sm md:text-xs 2xl:text-base">{f.desc}</p>
                         </div>
                     )}
                 </div>
@@ -22,11 +25,12 @@ function FormationPage() {
             <div className="flex flex-col items-center justify-center lg:h-1/2">
                 <p className="text-neon-blue text-5xl mb-6">Experiences</p>
                 <div className="overflow-hidden flex flex-col lg:flex-row lg:justify-evenly items-center w-full">
-                    {experience.map(e =>
+                    {data.experiences.map((e, i) =>
                         <div className="flex flex-col items-center text-center border-4 bg-neon-yellow/10 border-neon-yellow relative lg:w-1/4 h-72  w-4/5 my-8 lg:my-0">
                             <BorderEdgeCut />
-                            <img src={moi} alt='logo' className="h-24 mt-8"></img>
-                            <p className="mt-8 mx-2">b</p>
+                            <p className="mt-8 mx-2 text-neon-yellow text-2xl">{e.titre}</p>
+                            <p className="text-xl">{e.years}</p>
+                            <p className="mt-6 mx-2 text-sm md:text-xs 2xl:text-base">{e.desc}</p>
                         </div>
                     )}
                 </div>

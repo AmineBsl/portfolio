@@ -19,16 +19,16 @@ function Navigation() {
 
 
     return (
-        <div className="flex items-center justify-center h-3/4 w-screen lg:h-screen lg:w-1/2">
-            <section id="containBuild" className="w-10/12 relative">
+        <div className="flex items-center justify-center h-1/2 w-screen lg:h-screen lg:w-1/2 pt-32 lg:pt-0">
+            <section id="containBuild" className="lg:w-10/12 w-9/12 md:w-7/12 relative">
                 <BackgroundRoad width="100%" height="100%" />
                 <Link to='about' smooth={true}><div onMouseLeave={() => setBuilding1Hovered(false)} onMouseEnter={() => setBuilding1Hovered(true)} className="group">
                     <Building1 height="60.72%" width="13.01%" preserveAspectRatio="none" className="hover:cursor-pointer absolute left-[16.31%] bottom-[12.8%]" />
-                    <button className={`${building1Hovered ? 'button-glow' : ''} group-hover:shadow-purple neon-button left-[16.56%] top-[14.9%] w-[12.5%] h-[7%] text-neon-purple border-neon-purple`}>A propos</button>
+                    <button className={`${building1Hovered ? 'button-glow' : ''} group-hover:shadow-purple neon-button left-[16.56%] top-[25.9%] w-[12.5%] h-[10.5%] text-neon-purple border-neon-purple`}>A propos</button>
                 </div></Link>
                 <Link to='formation' smooth={true}><div onMouseLeave={() => setBuilding2Hovered(false)} onMouseEnter={() => setBuilding2Hovered(true)} className="group">
                     <Building2 height="54.27%" width="21.91%" preserveAspectRatio="none" className="hover:cursor-pointer absolute left-[29.3%] bottom-[12.8%]" />
-                    <button className={`${building2Hovered ? 'button-glow' : ''} group-hover:shadow-orange neon-button left-[29.65%] top-[31.9%] w-[21.20%] text-neon-orange border-neon-orange`}>Formation / Experiences</button>
+                    <button className={`${building2Hovered ? 'button-glow' : ''} group-hover:shadow-orange neon-button left-[29.65%] top-[31.9%] w-[21.20%] h-[13.5%] text-neon-orange border-neon-orange`}>Formation / Experiences</button>
                 </div></Link>
                 <Link to='projects' smooth={true}><div onMouseLeave={() => setBuilding3Hovered(false)} onMouseEnter={() => setBuilding3Hovered(true)} className="group">
                     <Building3 height="47.45%" width="16.16%" preserveAspectRatio="none" className="hover:cursor-pointer absolute left-[51.15%] bottom-[12.8%]" />
