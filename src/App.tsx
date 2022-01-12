@@ -3,6 +3,7 @@ import './index.css';
 import TopPage from './Components/TopPage';
 import AboutPage from './Components/AboutPage';
 import FormationPage from './Components/FormationPage';
+import ProjectsPage from './Components/ProjectsPage';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <TopPage />
       <AboutPage />
       <FormationPage />
+      <ProjectsPage />
     </div>
   );
 }
