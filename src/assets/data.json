@@ -1,10 +1,10 @@
 {
     "formations": [
         {
-            "titre": "DUT Informatique",
-            "lieu" : "IUT du Havre",
-            "desc": "Une formation de deux ans durant laquelle j'ai pu apprendre les bases de l'informatique, nottament la programmation orientée objet en Java et la gestion de base de données SQL.",
-            "years": "2016 - 2018"
+            "titre": "Master IWOCS",
+            "lieu" : "Université Le Havre Normandie",
+            "desc": "C'est durant ce Master que j'ai appris le développement d'applications web à l'aide de frameworks, principalement ReactJS et NodeJS, nous avons également abordé des notions de développement IOT en C à l'aide d'Arduino.",
+            "years": "2020 - 2021"
         },
         {
             "titre": "Licence Informatique",
@@ -13,36 +13,39 @@
             "years": "2018 - 2019"
         },
         {
-            "titre": "Master IWOCS",
-            "lieu" : "Université Le Havre Normandie",
-            "desc": "C'est durant ce Master que j'ai appris le développement d'applications web à l'aide de frameworks, principalement ReactJS et NodeJS, nous avons également abordé des notions de développement IOT en C à l'aide d'Arduino.",
-            "years": "2020 - 2021"
+            "titre": "DUT Informatique",
+            "lieu" : "IUT du Havre",
+            "desc": "Une formation de deux ans durant laquelle j'ai pu apprendre les bases de l'informatique, nottament la programmation orientée objet en Java et la gestion de base de données SQL.",
+            "years": "2016 - 2018"
         }
     ],
     "experiences": [
         {
-            "titre": "Ségula Technologies",
-            "desc": "Ce stage à été ma première expérience dans le milieu professionel, au sein d'une équipe d'ingénieurs navals j'ai participé au développement en C# d'une application permettant d'optimiser le placement des éléments dans la coque d'un navire.",
-            "years": "Mars 2018 - Juin 2018"
-        },
-        {
             "titre": "Thalès DMS",
             "desc": "Durant ce stage qui m'a permi de valider mon Master, j'ai développé une application web en Python avec le framework Django. Le but de l'application était de permettre à des chefs de projets d'assigner des tàches au différents techniciens du groupe afin qu'ils puissent les consulter et suivre leur avancée.",
             "years": "Mars 2021 - Aout 2021"
+        },
+        {
+            "titre": "Ségula Technologies",
+            "desc": "Ce stage à été ma première expérience dans le milieu professionel, au sein d'une équipe d'ingénieurs navals j'ai participé au développement en C# d'une application permettant d'optimiser le placement des éléments dans la coque d'un navire.",
+            "years": "Mars 2018 - Juin 2018"
         }
     ],
     "projets":[
         {
             "onglet": "Formula 1 Database",
-            "desc" : "The goal of this application is to provide users with any usefull informations about Formula 1. Data is fetched from ErgastAPI"
+            "desc" : "The goal of this application is to provide users with any usefull informations about Formula 1. Data is fetched from ErgastAPI",
+            "lien" :"https://formula-1-database.vercel.app/"
         },
         {
             "onglet": "My Portfolio",
-            "desc" : "This is my portfolio, here you will find out about my formations, experiences and the different projects I am working on !"
+            "desc" : "This is my portfolio, here you will find out about my formations, experiences and the different projects I am working on !",
+            "lien" :"https://portfolio-aminebsl.vercel.app/"
         },
         {
             "onglet": "Coming soon...",
-            "desc" : ""
+            "desc" : "",
+            "lien" :""
         }
     ]
 }
