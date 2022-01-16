@@ -34,13 +34,18 @@
     "projets":[
         {
             "onglet": "Formula 1 Database",
-            "desc" : "The goal of this application is to provide users with any usefull informations about Formula 1. Data is fetched from ErgastAPI",
+            "desc" : "Le but de cette application est de fournir des données utiles à propos de la Formule 1. Seul les informations sur les pilotes sont disponibles pour le moment. Les données sont récupérées depuis ErgastAPI.",
             "lien" :"https://formula-1-database.vercel.app/"
         },
         {
             "onglet": "My Portfolio",
             "desc" : "This is my portfolio, here you will find out about my formations, experiences and the different projects I am working on !",
             "lien" :"https://portfolio-aminebsl.vercel.app/"
+        },
+        {
+            "onglet": "Lemot",
+            "desc" : "Lemot est un remake du jeux de lettres Wordle par powerlanguage, basé sur le jeu télévisé Motus. Vous avez 6 essais pour essayer de deviner un mot de 6 lettres. Après chaque essais le jeu vous indique si les lettres sont présentes dans le mot et si elles sont bien placées.",
+            "lien" :"https://lemot.vercel.app/"
         },
         {
             "onglet": "Coming soon...",
