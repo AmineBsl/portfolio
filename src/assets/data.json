@@ -39,16 +39,16 @@
         },
         {
             "onglet": "My Portfolio",
-            "desc" : "Ceci est mon portfolio, ici, vous en apprendrez davantage sur mes formations, mes expériences ainsi que sur les projets sur lesquelles je travaille actuellement.            ",
+            "desc" : "Ceci est mon portfolio, ici, vous en apprendrez davantage sur mes formations, mes expériences ainsi que sur les projets sur lesquelles je travaille actuellement.",
             "lien" :"https://portfolio-aminebsl.vercel.app/"
         },
         {
             "onglet": "Lemot",
-            "desc" : "Lemot est un remake du jeux de lettres Wordle par powerlanguage, basé sur le jeu télévisé Motus. Vous avez 6 essais pour essayer de deviner un mot de 6 lettres. Après chaque essai le jeu vous indique si les lettres sont présentes dans le mot et si elles sont bien placées.",
+            "desc" : "Lemot est un remake du jeux de lettres Wordle par powerlanguage, basé sur le jeu télévisé Motus. Vous avez 6 essais pour essayer de deviner un mot de 6 lettres. Après chaque essai, le jeu vous indique si les lettres sont présentes dans le mot et si elles sont bien placées.",
             "lien" :"https://lemot.vercel.app/"
         },
         {
-            "onglet": "Coming soon...",
+            "onglet": "Bientôt...",
             "desc" : "",
             "lien" :""
         }
