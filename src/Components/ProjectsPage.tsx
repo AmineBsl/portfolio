@@ -4,17 +4,21 @@ import Projetf1pic from "../assets/projetf1thumb.png"
 import ProjetPortfolioPic from "../assets/screenPortfolio.png"
 import ProjetLemotPic from "../assets/screenLemot.png"
 import data from "../assets/data.json"
-import { useState } from "react"
+import { useRef, useState } from "react"
+import useAnim from "../Hooks/useAnim"
 
 function ProjectsPage() {
     const projectPictures = [Projetf1pic, ProjetPortfolioPic, ProjetLemotPic]
     const nbProjects = data.projets.length - 1;
     const [selectedTab, setSelectedTab] = useState(0)
 
+    const projectsDiv = useRef<HTMLDivElement>(null);
+    useAnim(projectsDiv);
+
     return (
         <div id='projects' className="bg-zinc-900 h-screen font-chakra justify-evenly text-white font-medium flex flex-col items-center">
             <p className="text-5xl text-[#4fcbc8]">Projets</p>
-            <section className="flex lg:flex-col h-3/4 w-3/4 border-4 bg-neon-yellow/10 border-neon-yellow relative ">
+            <div ref={projectsDiv}className="flex lg:flex-col h-3/4 w-3/4 border-4 bg-neon-yellow/10 border-neon-yellow relative ">
                 <BorderEdgeCut />
                 <div className="flex flex-col lg:flex-row items-center text-center lg:text-sm text-xs h-full lg:h-16 w-16 lg:w-full bg-neon-yellow/20 ">
                     {data.projets.map(({ onglet }, i) =>
@@ -35,7 +39,7 @@ function ProjectsPage() {
                     </div>
                 </div>
 
-            </section>
+            </div>
         </div>
     )
 }
