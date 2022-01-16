@@ -7,9 +7,9 @@ function useAnim(sectionRef:React.RefObject<HTMLElement>, origin: string = 'righ
         if (sectionRef.current)
           scrollReveal().reveal(sectionRef.current, {
             origin: origin,
-            distance: '50px',
+            distance: '100px',
             reset: false,
-            delay: 250
+            delay: 400
           });
       }, [sectionRef, origin]);
 }

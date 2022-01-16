@@ -9,7 +9,7 @@
         {
             "titre": "Licence Informatique",
             "lieu" : "Université Le Havre Normandie",
-            "desc": "Cette année s'est inscrit dans la suite du DUT, j'ai principalement approfondie mes connaissances vue les années précédentes tout en découvrant de nouveaux concepts tels que les API REST en PHP.",
+            "desc": "Cette année s'est inscrite dans la suite du DUT, j'ai principalement approfondi mes connaissances vu les années précédentes tout en découvrant de nouveaux concepts tels que les API REST en PHP.",
             "years": "2018 - 2019"
         },
         {
@@ -22,29 +22,29 @@
     "experiences": [
         {
             "titre": "Thalès DMS",
-            "desc": "Durant ce stage qui m'a permi de valider mon Master, j'ai développé une application web en Python avec le framework Django. Le but de l'application était de permettre à des chefs de projets d'assigner des tàches au différents techniciens du groupe afin qu'ils puissent les consulter et suivre leur avancée.",
+            "desc": "Durant ce stage qui m'a permis de valider mon Master, j'ai développé une application web en Python avec le framework Django. Le but de l'application était de permettre à des chefs de projets d'assigner des tâches aux différents techniciens du groupe afin qu'ils puissent les consulter et suivre leur avancée.",
             "years": "Mars 2021 - Aout 2021"
         },
         {
             "titre": "Ségula Technologies",
-            "desc": "Ce stage à été ma première expérience dans le milieu professionel, au sein d'une équipe d'ingénieurs navals j'ai participé au développement en C# d'une application permettant d'optimiser le placement des éléments dans la coque d'un navire.",
+            "desc": "Ce stage a été ma première expérience dans le milieu professionnel, au sein d'une équipe d'ingénieurs navals, j'ai participé au développement en C# d'une application permettant d'optimiser le placement des éléments dans la coque d'un navire.",
             "years": "Mars 2018 - Juin 2018"
         }
     ],
     "projets":[
         {
             "onglet": "Formula 1 Database",
-            "desc" : "Le but de cette application est de fournir des données utiles à propos de la Formule 1. Seul les informations sur les pilotes sont disponibles pour le moment. Les données sont récupérées depuis ErgastAPI.",
+            "desc" : "Le but de cette application est de fournir des données utiles à propos de la Formule 1. Seules les informations sur les pilotes sont disponibles pour le moment. Les données sont récupérées depuis ErgastAPI.",
             "lien" :"https://formula-1-database.vercel.app/"
         },
         {
             "onglet": "My Portfolio",
-            "desc" : "This is my portfolio, here you will find out about my formations, experiences and the different projects I am working on !",
+            "desc" : "Ceci est mon portfolio, ici, vous en apprendrez davantage sur mes formations, mes expériences ainsi que sur les projets sur lesquelles je travaille actuellement.            ",
             "lien" :"https://portfolio-aminebsl.vercel.app/"
         },
         {
             "onglet": "Lemot",
-            "desc" : "Lemot est un remake du jeux de lettres Wordle par powerlanguage, basé sur le jeu télévisé Motus. Vous avez 6 essais pour essayer de deviner un mot de 6 lettres. Après chaque essais le jeu vous indique si les lettres sont présentes dans le mot et si elles sont bien placées.",
+            "desc" : "Lemot est un remake du jeux de lettres Wordle par powerlanguage, basé sur le jeu télévisé Motus. Vous avez 6 essais pour essayer de deviner un mot de 6 lettres. Après chaque essai le jeu vous indique si les lettres sont présentes dans le mot et si elles sont bien placées.",
             "lien" :"https://lemot.vercel.app/"
         },
         {
